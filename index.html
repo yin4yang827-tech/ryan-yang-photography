@@ -1,301 +1,330 @@
 <!DOCTYPE html>
-<!--
-  Ryan Yang Photography — Home / Portfolio
-  ————————————————————————————————————————
-  To add a photo: drop the file in images/ and copy one of the
-  <figure class="card"> blocks below. data-category controls which
-  filter chip it belongs to (niagara / city / nature / wander).
--->
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ryan Yang Photography — Landscape & Travel</title>
-  <meta name="description" content="Landscape and travel photography by Ryan Yang: Niagara Falls, New York City, forest trails, and the moments in between.">
-
-  <!-- Fonts: Quicksand (headings) + Nunito Sans (body) -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0745.jpg" data-resource-id="img_DSC_0745_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0829.jpg" data-resource-id="img_DSC_0829_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0159-cat.jpg" data-resource-id="img_DSC_0159_cat_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0194.jpg" data-resource-id="img_DSC_0194_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0419.jpg" data-resource-id="img_DSC_0419_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0801.jpg" data-resource-id="img_DSC_0801_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0092.jpg" data-resource-id="img_DSC_0092_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0493.jpg" data-resource-id="img_DSC_0493_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0778.jpg" data-resource-id="img_DSC_0778_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0200.jpg" data-resource-id="img_DSC_0200_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0444.jpg" data-resource-id="img_DSC_0444_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0791.jpg" data-resource-id="img_DSC_0791_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0761-spider.jpg" data-resource-id="img_DSC_0761_spider_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0120.jpg" data-resource-id="img_DSC_0120_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0975.jpg" data-resource-id="img____DSC_0975_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0787-2.jpg" data-resource-id="img_DSC_0787_2_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0125.jpg" data-resource-id="img_DSC_0125_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0222.jpg" data-resource-id="img_DSC_0222_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0356-2.jpg" data-resource-id="img_DSC_0356_2_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0428.jpg" data-resource-id="img_DSC_0428_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0241.jpg" data-resource-id="img_DSC_0241_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0554.jpg" data-resource-id="img_DSC_0554_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0730.jpg" data-resource-id="img_DSC_0730_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0440.jpg" data-resource-id="img_DSC_0440_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0866.jpg" data-resource-id="img_DSC_0866_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0215.jpg" data-resource-id="img_DSC_0215_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0839.jpg" data-resource-id="img_DSC_0839_jpg" />
+  <meta name="ext-resource-dependency" content="uploads/web/DSC_0027-dusk.jpg" data-resource-id="img_DSC_0027_dusk_jpg" />
+<template id="__bundler_thumbnail" data-bg-color="#121212">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <rect width="100" height="100" fill="#121212"/>
+    <rect x="20" y="35" width="60" height="38" rx="6" fill="none" stroke="#F5F2EC" stroke-width="3"/>
+    <rect x="38" y="24" width="24" height="11" rx="2" fill="none" stroke="#F5F2EC" stroke-width="3"/>
+    <circle cx="50" cy="55" r="13" fill="none" stroke="#F5F2EC" stroke-width="3"/>
+    <circle cx="50" cy="55" r="5" fill="#8A857B"/>
+  </svg>
+</template>
 </head>
 <body>
-  <!-- ======================= NAVIGATION ======================= -->
-  <nav class="nav">
-    <a class="nav__brand" href="index.html">
-      <span class="nav__dot" aria-hidden="true"></span>
-      <strong>Ryan Yang</strong> <span>Photography</span>
+<x-dc>
+<helmet>
+  <title>Ryan Yang — Landscape &amp; Travel Photographer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;family=Manrope:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+  <style>
+    html, body { margin: 0; padding: 0; background: #121212; }
+    a { color: #C9C4BA; text-decoration: none; }
+    a:hover { color: #FFFFFF; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes cameraBounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+  </style>
+</helmet>
+
+<div style="min-height: 100vh; background: #121212; color: #E8E4DC; font-family: 'Manrope', sans-serif; font-size: 15px; line-height: 1.7;">
+
+  <!-- ============ NAV ============ -->
+  <nav style="position: sticky; top: 0; z-index: 40; display: flex; align-items: center; justify-content: space-between; padding: 22px 48px; background: rgba(18,18,18,0.85); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(232,228,220,0.08);">
+    <a href="#" onClick="{{ goHome }}" style="display: flex; align-items: center; gap: 12px; color: #E8E4DC;">
+      <svg width="24" height="22" viewBox="0 0 24 22" style="animation: cameraBounce 2.2s ease-in-out infinite; flex-shrink: 0;">
+        <rect x="1" y="6" width="22" height="14" rx="2.5" fill="none" stroke="#F5F2EC" stroke-width="1.3"></rect>
+        <rect x="8" y="2.5" width="8" height="4" rx="1" fill="none" stroke="#F5F2EC" stroke-width="1.3"></rect>
+        <circle cx="12" cy="13" r="4.6" fill="none" stroke="#F5F2EC" stroke-width="1.3"></circle>
+        <circle cx="12" cy="13" r="2" fill="#8A857B"></circle>
+        <circle cx="19" cy="9" r="1" fill="#8A857B"></circle>
+      </svg>
+      <span style="display: flex; align-items: baseline; gap: 12px;">
+      <span style="font-family: 'Cormorant Garamond', serif; font-weight: 500; font-size: 24px; letter-spacing: 0.5px;">Ryan Yang</span>
+      <span style="font-size: 10.5px; letter-spacing: 3px; text-transform: uppercase; color: #8A857B;">Landscape &amp; Travel</span>
+      </span>
     </a>
-    <div class="nav__links">
-      <a class="nav__link nav__link--active" href="index.html">Portfolio</a>
-      <a class="nav__link" href="about.html">About</a>
+    <div style="display: flex; gap: 34px; font-size: 12px; font-weight: 600; letter-spacing: 2.5px; text-transform: uppercase;">
+      <button onClick="{{ goHome }}" style="{{ navHomeStyle }}">Work</button>
+      <button onClick="{{ goAbout }}" style="{{ navAboutStyle }}">About</button>
+      <a href="mailto:yin4yang827@gmail.com" style="color: #8A857B; padding: 6px 0; transition: color 0.25s ease, letter-spacing 0.25s ease;" style-hover="color: #FFFFFF; letter-spacing: 3px;">Contact</a>
     </div>
   </nav>
 
-  <!-- ======================= HERO ======================= -->
-  <header class="hero">
-    <span class="badge">Landscape &amp; Travel</span>
-    <h1>Collecting light from<br>beautiful places</h1>
-    <p>From the mist of Niagara to quiet forest trails and city evenings — little moments worth keeping.</p>
-  </header>
+  <!-- ============ HOME ============ -->
+  <sc-if value="{{ showHome }}" hint-placeholder-val="{{ true }}">
+    <div style="animation: fadeIn 0.5s ease;">
 
-  <!-- ======================= FILTERS ======================= -->
-  <div class="filters" role="group" aria-label="Filter photos by category">
-    <button class="chip chip--active" data-filter="all">All photos</button>
-    <button class="chip" data-filter="niagara">Niagara Falls</button>
-    <button class="chip" data-filter="city">New York City</button>
-    <button class="chip" data-filter="nature">Nature</button>
-    <button class="chip" data-filter="wander">Wanderings</button>
-  </div>
+      <!-- Full-bleed hero -->
+      <header style="position: relative; height: min(88vh, 860px); overflow: hidden;">
+        <img src="uploads/for professional/DSC_0444.jpg" alt="Downtown towers silhouetted against a teal evening sky" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;">
+        <div style="position: absolute; inset: 0; background: linear-gradient(to top, rgba(18,18,18,0.92) 0%, rgba(18,18,18,0.15) 45%, rgba(18,18,18,0.25) 100%); display: flex; flex-direction: column; justify-content: flex-end; padding: 0 48px 64px;">
+          <div style="max-width: 1400px; margin: 0 auto; width: 100%;">
+            <div style="font-size: 11px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; color: #A29C8F; margin-bottom: 16px;">SELECTED WORK · 2025 — 2026</div>
+            <h1 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: clamp(44px, 7vw, 84px); line-height: 1.05; margin: 0; color: #F5F2EC; max-width: 800px;">The land, the light,<br>and the hours between</h1>
+          </div>
+        </div>
+      </header>
 
-  <!-- ======================= GALLERY ======================= -->
-  <main class="gallery-wrap">
-    <div class="gallery">
-      <!-- Lookout -->
-      <figure class="card" data-category="niagara" data-title="Lookout" data-location="Niagara Falls, ON">
-        <img src="images/DSC_0745.jpg" alt="Ring-billed gull perched above the Niagara gorge" loading="lazy">
-        <figcaption>
-          <span class="title">Lookout</span>
-          <span class="location">Niagara Falls, ON</span>
-        </figcaption>
-      </figure>
-
-      <!-- Balloon over the Falls -->
-      <figure class="card" data-category="niagara" data-title="Balloon over the Falls" data-location="Niagara Falls">
-        <img src="images/DSC_0829.jpg" alt="Helium observation balloon floating over American Falls" loading="lazy">
-        <figcaption>
-          <span class="title">Balloon over the Falls</span>
-          <span class="location">Niagara Falls</span>
-        </figcaption>
-      </figure>
-
-      <!-- Flight Lines -->
-      <figure class="card" data-category="niagara" data-title="Flight Lines" data-location="Niagara Falls">
-        <img src="images/DSC_0787.jpg" alt="Zipliners silhouetted against Horseshoe Falls, black and white" loading="lazy">
-        <figcaption>
-          <span class="title">Flight Lines</span>
-          <span class="location">Niagara Falls</span>
-        </figcaption>
-      </figure>
-
-      <!-- Canopy Light -->
-      <figure class="card" data-category="nature" data-title="Canopy Light" data-location="Upstate New York">
-        <img src="images/DSC_0194.jpg" alt="Sunburst through a dark maple canopy" loading="lazy">
-        <figcaption>
-          <span class="title">Canopy Light</span>
-          <span class="location">Upstate New York</span>
-        </figcaption>
-      </figure>
-
-      <!-- One World Trade -->
-      <figure class="card" data-category="city" data-title="One World Trade" data-location="New York City">
-        <img src="images/DSC_0419.jpg" alt="One World Trade Center rising between buildings at dusk" loading="lazy">
-        <figcaption>
-          <span class="title">One World Trade</span>
-          <span class="location">New York City</span>
-        </figcaption>
-      </figure>
-
-      <!-- Maid of the Mist -->
-      <figure class="card" data-category="niagara" data-title="Maid of the Mist" data-location="Niagara Falls">
-        <img src="images/DSC_0801.jpg" alt="Tour boat below the falls framed by a wrought-iron railing" loading="lazy">
-        <figcaption>
-          <span class="title">Maid of the Mist</span>
-          <span class="location">Niagara Falls</span>
-        </figcaption>
-      </figure>
-
-      <!-- Golden Reflections -->
-      <figure class="card" data-category="nature" data-title="Golden Reflections" data-location="Autumn pond">
-        <img src="images/DSC_0092.jpg" alt="Canada goose swimming through golden autumn reflections" loading="lazy">
-        <figcaption>
-          <span class="title">Golden Reflections</span>
-          <span class="location">Autumn pond</span>
-        </figcaption>
-      </figure>
-
-      <!-- Brooklyn Bridge Sunset -->
-      <figure class="card" data-category="city" data-title="Brooklyn Bridge Sunset" data-location="New York City">
-        <img src="images/DSC_0493.jpg" alt="Manhattan skyline at sunset through Brooklyn Bridge cables" loading="lazy">
-        <figcaption>
-          <span class="title">Brooklyn Bridge Sunset</span>
-          <span class="location">New York City</span>
-        </figcaption>
-      </figure>
-
-      <!-- Misty Morning -->
-      <figure class="card" data-category="niagara" data-title="Misty Morning" data-location="Horseshoe Falls">
-        <img src="images/DSC_0778.jpg" alt="Portrait at the railing with Horseshoe Falls behind" loading="lazy">
-        <figcaption>
-          <span class="title">Misty Morning</span>
-          <span class="location">Horseshoe Falls</span>
-        </figcaption>
-      </figure>
-
-      <!-- After the Rain -->
-      <figure class="card" data-category="nature" data-title="After the Rain" data-location="Forest trail">
-        <img src="images/DSC_0200.jpg" alt="Rain-dappled beech leaves in a green forest" loading="lazy">
-        <figcaption>
-          <span class="title">After the Rain</span>
-          <span class="location">Forest trail</span>
-        </figcaption>
-      </figure>
-
-      <!-- Skyline Silhouettes -->
-      <figure class="card" data-category="city" data-title="Skyline Silhouettes" data-location="Lower Manhattan">
-        <img src="images/DSC_0444.jpg" alt="Downtown towers silhouetted against a teal evening sky" loading="lazy">
-        <figcaption>
-          <span class="title">Skyline Silhouettes</span>
-          <span class="location">Lower Manhattan</span>
-        </figcaption>
-      </figure>
-
-      <!-- Into the Sun -->
-      <figure class="card" data-category="niagara" data-title="Into the Sun" data-location="Niagara gorge">
-        <img src="images/DSC_0791.jpg" alt="Gulls scattered across a deep blue sky with sun flare" loading="lazy">
-        <figcaption>
-          <span class="title">Into the Sun</span>
-          <span class="location">Niagara gorge</span>
-        </figcaption>
-      </figure>
-
-      <!-- Summer Shore -->
-      <figure class="card" data-category="wander" data-title="Summer Shore" data-location="Outer Banks, NC">
-        <img src="images/DSC_0937.jpg" alt="Busy summer beach with umbrellas and rolling surf" loading="lazy">
-        <figcaption>
-          <span class="title">Summer Shore</span>
-          <span class="location">Outer Banks, NC</span>
-        </figcaption>
-      </figure>
-
-      <!-- Creek Bed -->
-      <figure class="card" data-category="nature" data-title="Creek Bed" data-location="Watkins Glen">
-        <img src="images/DSC_0120.jpg" alt="Sunlight falling on mossy stones in a dry creek bed" loading="lazy">
-        <figcaption>
-          <span class="title">Creek Bed</span>
-          <span class="location">Watkins Glen</span>
-        </figcaption>
-      </figure>
-
-      <!-- Blue Skies at the Falls -->
-      <figure class="card" data-category="niagara" data-title="Blue Skies at the Falls" data-location="Horseshoe Falls">
-        <img src="images/DSC_0780.jpg" alt="Portrait with Horseshoe Falls and turquoise water behind" loading="lazy">
-        <figcaption>
-          <span class="title">Blue Skies at the Falls</span>
-          <span class="location">Horseshoe Falls</span>
-        </figcaption>
-      </figure>
-
-      <!-- Foley Square -->
-      <figure class="card" data-category="city" data-title="Foley Square" data-location="New York City">
-        <img src="images/DSC_0428.jpg" alt="Street scene in selective color with red traffic lights" loading="lazy">
-        <figcaption>
-          <span class="title">Foley Square</span>
-          <span class="location">New York City</span>
-        </figcaption>
-      </figure>
-
-      <!-- Crape Myrtle -->
-      <figure class="card" data-category="nature" data-title="Crape Myrtle" data-location="Summer garden">
-        <img src="images/DSC_0241.jpg" alt="Japanese beetles resting in pink crape myrtle blossoms" loading="lazy">
-        <figcaption>
-          <span class="title">Crape Myrtle</span>
-          <span class="location">Summer garden</span>
-        </figcaption>
-      </figure>
-
-      <!-- City in Motion -->
-      <figure class="card" data-category="city" data-title="City in Motion" data-location="East River">
-        <img src="images/DSC_0554.jpg" alt="Abstract light trails of the Manhattan Bridge at night" loading="lazy">
-        <figcaption>
-          <span class="title">City in Motion</span>
-          <span class="location">East River</span>
-        </figcaption>
-      </figure>
-
-      <!-- Over the Ridge -->
-      <figure class="card" data-category="niagara" data-title="Over the Ridge" data-location="Niagara gorge">
-        <img src="images/DSC_0730.jpg" alt="Two gulls gliding over a treed cliff edge" loading="lazy">
-        <figcaption>
-          <span class="title">Over the Ridge</span>
-          <span class="location">Niagara gorge</span>
-        </figcaption>
-      </figure>
-
-      <!-- Rose on the Trail -->
-      <figure class="card" data-category="nature" data-title="Rose on the Trail" data-location="Found object">
-        <img src="images/DSC_0356.jpg" alt="Single red rose lying on dark forest ground" loading="lazy">
-        <figcaption>
-          <span class="title">Rose on the Trail</span>
-          <span class="location">Found object</span>
-        </figcaption>
-      </figure>
-
-      <!-- Passing Overhead -->
-      <figure class="card" data-category="city" data-title="Passing Overhead" data-location="Queens, NY">
-        <img src="images/DSC_0440.jpg" alt="Jet crossing a deep blue sky above a streetlamp" loading="lazy">
-        <figcaption>
-          <span class="title">Passing Overhead</span>
-          <span class="location">Queens, NY</span>
-        </figcaption>
-      </figure>
-
-      <!-- Sixteen Ninety-Three -->
-      <figure class="card" data-category="wander" data-title="Sixteen Ninety-Three" data-location="Williamsburg, VA">
-        <img src="images/DSC_0866.jpg" alt="Weathervane and cupola lit gold against storm clouds" loading="lazy">
-        <figcaption>
-          <span class="title">Sixteen Ninety-Three</span>
-          <span class="location">Williamsburg, VA</span>
-        </figcaption>
-      </figure>
-
-      <!-- Small Wanderer -->
-      <figure class="card" data-category="nature" data-title="Small Wanderer" data-location="Tree bark, macro">
-        <img src="images/DSC_0215.jpg" alt="Spotted lanternfly nymph climbing textured bark" loading="lazy">
-        <figcaption>
-          <span class="title">Small Wanderer</span>
-          <span class="location">Tree bark, macro</span>
-        </figcaption>
-      </figure>
-
-      <!-- Walking the Sky -->
-      <figure class="card" data-category="wander" data-title="Walking the Sky" data-location="Sculpture, dusk">
-        <img src="images/DSC_0839.jpg" alt="Figures walking a curved beam into violet fog" loading="lazy">
-        <figcaption>
-          <span class="title">Walking the Sky</span>
-          <span class="location">Sculpture, dusk</span>
-        </figcaption>
-      </figure>
-    </div>
-  </main>
-
-  <!-- ======================= LIGHTBOX ======================= -->
-  <div class="lightbox" id="lightbox" aria-modal="true" role="dialog">
-    <img src="" alt="">
-    <div class="lightbox__bar">
-      <button class="lightbox__nav lightbox__nav--prev" aria-label="Previous photo">&#8592;</button>
-      <div>
-        <div class="lightbox__title"></div>
-        <div class="lightbox__location"></div>
+      <!-- Filter row -->
+      <div style="max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 28px; padding: 40px 48px 34px;">
+        <sc-for list="{{ filterChips }}" as="chip" hint-placeholder-count="5">
+          <button onClick="{{ chip.select }}" style="{{ chip.style }}">{{ chip.label }}</button>
+        </sc-for>
       </div>
-      <button class="lightbox__nav lightbox__nav--next" aria-label="Next photo">&#8594;</button>
-    </div>
-    <button class="lightbox__close" aria-label="Close">&#10005;</button>
-  </div>
 
-  <!-- ======================= FOOTER ======================= -->
-  <footer class="footer">
-    <div class="footer__inner">
-      <div class="footer__brand">&copy; 2026 Ryan Yang Photography</div>
-      <div class="footer__links">
-        <!-- TODO: swap in your real handles -->
-        <a href="https://instagram.com/your-handle" target="_blank" rel="noopener">Instagram</a>
-        <a href="mailto:hello@example.com">Email</a>
+      <!-- Edge-to-edge grid, no card chrome -->
+      <main style="max-width: 1400px; margin: 0 auto; padding: 0 48px 100px;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 6px;">
+          <sc-for list="{{ photos }}" as="p" hint-placeholder-count="9">
+            <figure onClick="{{ p.open }}" style="position: relative; margin: 0; overflow: hidden; cursor: zoom-in; background: #1A1A1A;">
+              <img src="{{ p.src }}" alt="{{ p.alt }}" loading="lazy" style="display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; transition: transform 0.6s ease, opacity 0.4s ease;" style-hover="transform: scale(1.06);">
+              <figcaption style="position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: flex-end; padding: 20px 22px; background: linear-gradient(to top, rgba(18,18,18,0.85), transparent 55%); opacity: 0; transition: opacity 0.35s ease;" style-hover="opacity: 1;">
+                <span style="font-family: 'Cormorant Garamond', serif; font-size: 21px; color: #F5F2EC;">{{ p.title }}</span>
+                <span style="font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #A29C8F;">{{ p.location }}</span>
+              </figcaption>
+            </figure>
+          </sc-for>
+        </div>
+      </main>
+    </div>
+  </sc-if>
+
+  <!-- ============ ABOUT ============ -->
+  <sc-if value="{{ showAbout }}" hint-placeholder-val="{{ false }}">
+    <main style="max-width: 1100px; margin: 0 auto; padding: 90px 48px 110px; animation: fadeIn 0.5s ease;">
+      <div style="display: grid; grid-template-columns: minmax(260px, 400px) 1fr; gap: 72px; align-items: start;">
+        <img src="uploads/for professional/IMG_2481.jpeg" alt="Ryan Yang holding his camera in a mossy gorge" style="width: 100%; aspect-ratio: 4 / 5; object-fit: cover; filter: saturate(0.9);">
+        <div>
+          <div style="font-size: 11px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; color: #8A857B; margin-bottom: 18px;">About</div>
+          <h1 style="font-family: 'Cormorant Garamond', serif; font-weight: 400; font-size: clamp(34px, 4.5vw, 52px); line-height: 1.12; margin: 0 0 26px; color: #F5F2EC;">Photography is a way of paying attention.</h1>
+          <p style="margin: 0 0 18px; color: #B5AFA3; font-size: 16px; text-wrap: pretty;">I'm Ryan Yang, a landscape photographer and I love taking photos anywhere I go. I'm drawn to quiet moments — mist rising off a waterfall, sun slipping through a canopy, a city softening at dusk.</p>
+          <p style="margin: 0 0 40px; color: #B5AFA3; font-size: 16px; text-wrap: pretty;">My work is made with a Nikon D90. My favorite time to take photos is during sunset, usually after a bit of rain.</p>
+
+          <div style="display: grid; grid-template-columns: auto 1fr; gap: 10px 32px; padding: 26px 0; border-top: 1px solid rgba(232,228,220,0.12); border-bottom: 1px solid rgba(232,228,220,0.12); font-size: 14px; margin-bottom: 40px;">
+            <span style="color: #8A857B; letter-spacing: 1px; text-transform: uppercase; font-size: 11px; font-weight: 600; padding-top: 3px;">Based in</span><span style="color: #E8E4DC;">Virginia</span>
+            <span style="color: #8A857B; letter-spacing: 1px; text-transform: uppercase; font-size: 11px; font-weight: 600; padding-top: 3px;">Focus</span><span style="color: #E8E4DC;">Landscape · Nature</span>
+            
+          </div>
+
+          <div style="display: flex; gap: 16px;">
+            <a href="mailto:yin4yang827@gmail.com" style="padding: 14px 32px; background: #F5F2EC; color: #121212; font-size: 12px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; transition: transform 0.2s ease, box-shadow 0.2s ease; display: inline-block;" style-hover="color: #121212; background: #FFFFFF; transform: translateY(-3px); box-shadow: 0 10px 24px rgba(0,0,0,0.35);">Get in touch</a>
+            <a href="https://www.instagram.com/yangsty.photo/" target="_blank" rel="noopener" style="padding: 14px 32px; border: 1px solid rgba(232,228,220,0.3); color: #E8E4DC; font-size: 12px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; transition: transform 0.2s ease, border-color 0.2s ease; display: inline-block;" style-hover="color: #FFFFFF; border-color: #FFFFFF; transform: translateY(-3px);">Instagram</a>
+          </div>
+        </div>
+      </div>
+    </main>
+  </sc-if>
+
+  <!-- ============ LIGHTBOX ============ -->
+  <sc-if value="{{ lightboxOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeLightbox }}" style="position: fixed; inset: 0; z-index: 100; background: rgba(10,10,10,0.95); display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px; animation: fadeIn 0.25s ease; cursor: zoom-out;">
+      {{ lightboxImage }}
+      <div onClick="{{ stopClick }}" style="display: flex; align-items: center; gap: 30px; margin-top: 26px; cursor: default;">
+        <button onClick="{{ prevPhoto }}" aria-label="Previous photo" style="border: none; background: none; cursor: pointer; font-size: 22px; color: #8A857B; padding: 6px 10px;">←</button>
+        <div style="text-align: center;">
+          <div style="font-family: 'Cormorant Garamond', serif; font-size: 22px; color: #F5F2EC;">{{ lightboxTitle }}</div>
+          <div style="font-size: 11px; letter-spacing: 2.5px; text-transform: uppercase; color: #8A857B;">{{ lightboxLocation }}</div>
+        </div>
+        <button onClick="{{ nextPhoto }}" aria-label="Next photo" style="border: none; background: none; cursor: pointer; font-size: 22px; color: #8A857B; padding: 6px 10px;">→</button>
+      </div>
+      <button onClick="{{ closeLightbox }}" aria-label="Close" style="position: absolute; top: 26px; right: 32px; border: none; background: none; color: #8A857B; font-size: 22px; cursor: pointer; padding: 8px;">✕</button>
+    </div>
+  </sc-if>
+
+  <!-- ============ FOOTER ============ -->
+  <footer style="border-top: 1px solid rgba(232,228,220,0.08);">
+    <div style="max-width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; padding: 32px 48px; font-size: 12px; letter-spacing: 1px; color: #8A857B;">
+      <div>© 2026 Ryan Yang. All rights reserved.</div>
+      <div style="display: flex; gap: 28px; font-weight: 600; letter-spacing: 2px; text-transform: uppercase; font-size: 11px;">
+        <a href="https://www.instagram.com/yangsty.photo/" target="_blank" rel="noopener" style="transition: color 0.2s ease;" style-hover="color: #FFFFFF;">Instagram</a>
+        <a href="mailto:yin4yang827@gmail.com" style="transition: color 0.2s ease;" style-hover="color: #FFFFFF;">Email</a>
       </div>
     </div>
   </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { view: 'home', filter: 'all', lightboxIndex: -1 };
 
-  <script src="js/gallery.js"></script>
+  photoData() {
+    const dir = 'uploads/for professional/';
+    return [
+      { f: 'DSC_0745.jpg',  cat: 'niagara', title: 'A Seagull',                location: 'Niagara Falls, ON',  alt: 'Ring-billed gull perched above the Niagara gorge' },
+      { f: 'DSC_0829.jpg',  cat: 'niagara', title: 'Balloon over the Falls', location: 'Niagara Falls',      alt: 'Helium observation balloon floating over American Falls' },
+      { f: 'DSC_0159-cat.jpg', cat: 'wander', title: 'Little Kitty', location: 'At home',      alt: 'Grey and white cat playing with a catnip toy on a wood floor' },
+      { f: 'DSC_0194.jpg',  cat: 'nature',  title: 'Canopy Light',           location: 'CHarlottesville, va',   alt: 'Sunburst through a dark maple canopy' },
+      { f: 'DSC_0419.jpg',  cat: 'city',    title: 'One World Trade Center',        location: 'New York City',      alt: 'One World Trade Center rising between buildings at dusk' },
+      { f: 'DSC_0801.jpg',  cat: 'niagara', title: 'Maid of the Mist',       location: 'Niagara Falls',      alt: 'Tour boat below the falls framed by a wrought-iron railing' },
+      { f: 'DSC_0092.jpg',  cat: 'nature',  title: 'Golden Reflections',     location: 'Crozet, va',        alt: 'Canada goose swimming through golden autumn reflections' },
+      { f: 'DSC_0493.jpg',  cat: 'city',    title: 'Brooklyn Bridge Sunset', location: 'New York City',      alt: 'Manhattan skyline at sunset through Brooklyn Bridge cables' },
+      { f: 'DSC_0778.jpg',  cat: 'niagara', title: 'Niagara Falls Portrait',          location: 'Horseshoe Falls',    alt: 'Portrait at the railing with Horseshoe Falls behind' },
+      { f: 'DSC_0200.jpg',  cat: 'nature',  title: 'Morning Dew',         location: 'Charlottesville, va',       alt: 'Rain-dappled beech leaves in a green forest' },
+      { f: 'DSC_0444.jpg',  cat: 'city',    title: 'New York Skyline',    location: 'Manhattan',    alt: 'Downtown towers silhouetted against a teal evening sky' },
+      { f: 'DSC_0791.jpg',  cat: 'niagara', title: 'Into the Sun',           location: 'Niagara gorge',      alt: 'Gulls scattered across a deep blue sky with sun flare' },
+      { f: 'DSC_0761-spider.jpg', cat: 'wander', title: 'Small Wanderer',  location: 'rainbow bridge, niagara falls',    alt: 'Small striped spider perched on a white boat railing over turquoise water' },
+      { f: 'DSC_0120.jpg',  cat: 'nature',  title: 'Creek Bed',              location: 'CROzet, va',       alt: 'Sunlight falling on mossy stones in a dry creek bed' },
+      { f: '../DSC_0975.jpg', cat: 'wander', title: 'Birds on a Power Line',          location: 'crozet, va',        alt: 'Two doves on a power line silhouetted against storm clouds' },
+      { f: 'DSC_0787-2.jpg', cat: 'niagara', title: 'Zip Lines (in color)',        location: 'Horseshoe Falls',    alt: 'Zipliners in color gliding toward Horseshoe Falls' },
+      { f: 'DSC_0125.jpg',  cat: 'wander',  title: 'Abandoned Factory',               location: 'Crozet, va',    alt: 'Overgrown abandoned building with graffiti and rusted stairs' },
+      { f: 'DSC_0222.jpg',  cat: 'nature',  title: 'Hitchhiker',             location: 'Charlottesville, VA',        alt: 'Spotted lanternfly nymph on brown canvas against green' },
+      { f: 'DSC_0356-2.jpg', cat: 'nature', title: 'Dropped Rose',           location: 'Crozet, VA',       alt: 'Red rose on dark forest floor among ash-grey leaves' },
+      { f: 'DSC_0428.jpg',  cat: 'city',    title: 'Colorless City',           location: 'New York City',      alt: 'Street scene in selective color with red traffic lights' },
+      { f: 'DSC_0241.jpg',  cat: 'nature',  title: 'Beetles on Flowers',           location: 'Charlottesville, VA',      alt: 'Japanese beetles resting in pink crape myrtle blossoms' },
+      { f: 'DSC_0554.jpg',  cat: 'city',    title: 'City in Motion',         location: 'East River, NYC',         alt: 'Abstract light trails of the Manhattan Bridge at night' },
+      { f: 'DSC_0730.jpg',  cat: 'niagara', title: 'Over the Ridge',         location: 'Niagara gorge',      alt: 'Two gulls gliding over a treed cliff edge' },
+      { f: 'DSC_0440.jpg',  cat: 'city',    title: 'Passing Overhead',       location: 'Queens, NY',         alt: 'Jet crossing a deep blue sky above a streetlamp' },
+      { f: 'DSC_0866.jpg',  cat: 'wander',  title: 'An Old School',   location: 'Williamsburg, VA',   alt: 'Weathervane and cupola lit gold against storm clouds' },
+      { f: 'DSC_0215.jpg',  cat: 'nature',  title: 'Small Wanderer',         location: 'Charlottesville, VA',        alt: 'Spotted lanternfly nymph climbing textured bark' },
+      { f: 'DSC_0839.jpg',  cat: 'wander',  title: 'Walking the Sky',        location: 'PITTSBURGH, PA',    alt: 'Figures walking a curved beam into violet fog' },
+      { f: 'DSC_0027-dusk.jpg', cat: 'wander', title: 'Light Behind the Tree',       location: 'Crozet, va',    alt: 'Blue hour view of misty hills and a lit-up farmhouse below distant mountains' },
+    ];
+  }
+
+  resolveSrc(dir, f) {
+    const RESOURCE_IDS = {
+    'DSC_0745.jpg': 'img_DSC_0745_jpg',
+    'DSC_0829.jpg': 'img_DSC_0829_jpg',
+    'DSC_0159-cat.jpg': 'img_DSC_0159_cat_jpg',
+    'DSC_0194.jpg': 'img_DSC_0194_jpg',
+    'DSC_0419.jpg': 'img_DSC_0419_jpg',
+    'DSC_0801.jpg': 'img_DSC_0801_jpg',
+    'DSC_0092.jpg': 'img_DSC_0092_jpg',
+    'DSC_0493.jpg': 'img_DSC_0493_jpg',
+    'DSC_0778.jpg': 'img_DSC_0778_jpg',
+    'DSC_0200.jpg': 'img_DSC_0200_jpg',
+    'DSC_0444.jpg': 'img_DSC_0444_jpg',
+    'DSC_0791.jpg': 'img_DSC_0791_jpg',
+    'DSC_0761-spider.jpg': 'img_DSC_0761_spider_jpg',
+    'DSC_0120.jpg': 'img_DSC_0120_jpg',
+    '../DSC_0975.jpg': 'img____DSC_0975_jpg',
+    'DSC_0787-2.jpg': 'img_DSC_0787_2_jpg',
+    'DSC_0125.jpg': 'img_DSC_0125_jpg',
+    'DSC_0222.jpg': 'img_DSC_0222_jpg',
+    'DSC_0356-2.jpg': 'img_DSC_0356_2_jpg',
+    'DSC_0428.jpg': 'img_DSC_0428_jpg',
+    'DSC_0241.jpg': 'img_DSC_0241_jpg',
+    'DSC_0554.jpg': 'img_DSC_0554_jpg',
+    'DSC_0730.jpg': 'img_DSC_0730_jpg',
+    'DSC_0440.jpg': 'img_DSC_0440_jpg',
+    'DSC_0866.jpg': 'img_DSC_0866_jpg',
+    'DSC_0215.jpg': 'img_DSC_0215_jpg',
+    'DSC_0839.jpg': 'img_DSC_0839_jpg',
+    'DSC_0027-dusk.jpg': 'img_DSC_0027_dusk_jpg'
+    };
+    const id = RESOURCE_IDS[f];
+    if (id && typeof window !== 'undefined' && window.__resources && window.__resources[id]) return window.__resources[id];
+    return dir + f;
+  }
+
+  photoDataResolved(rawList) {
+    const dir = 'uploads/for professional/';
+    return rawList.map(p => ({ ...p, src: this.resolveSrc(dir, p.f) }));
+  }
+
+  render_navBtn(active) {
+    return "border: none; cursor: pointer; background: none; font-family: 'Manrope', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase; padding: 6px 0; border-bottom: 1px solid " +
+      (active ? '#F5F2EC; color: #F5F2EC;' : 'transparent; color: #8A857B;');
+  }
+
+  renderVals() {
+    const { view, filter, lightboxIndex } = this.state;
+    const all = this.photoDataResolved(this.photoData());
+    const visible = filter === 'all' ? all : all.filter(p => p.cat === filter);
+
+    const chipDefs = [
+      { id: 'all',     label: 'All' },
+      { id: 'niagara', label: 'Niagara Falls' },
+      { id: 'city',    label: 'New York City' },
+      { id: 'nature',  label: 'Nature' },
+      { id: 'wander',  label: 'random places' },
+    ];
+    const filterChips = chipDefs.map(c => ({
+      label: c.label,
+      select: () => this.setState({ filter: c.id }),
+      style: "border: none; background: none; cursor: pointer; font-family: 'Manrope', sans-serif; font-weight: 600; font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase; padding: 6px 0; transition: color 0.2s ease; border-bottom: 1px solid " +
+        (filter === c.id ? '#F5F2EC; color: #F5F2EC;' : 'transparent; color: #8A857B;'),
+    }));
+
+    const photos = visible.map(p => ({
+      ...p,
+      open: () => this.setState({ lightboxIndex: all.indexOf(p) }),
+    }));
+
+    const lb = lightboxIndex >= 0 ? all[lightboxIndex] : null;
+    const step = (d) => {
+      const list = filter === 'all' ? all : all.filter(p => p.cat === filter);
+      const pos = list.indexOf(all[this.state.lightboxIndex]);
+      const next = list[(pos + d + list.length) % list.length];
+      this.setState({ lightboxIndex: all.indexOf(next) });
+    };
+
+    return {
+      showHome: view === 'home',
+      showAbout: view === 'about',
+      goHome: (e) => { if (e && e.preventDefault) e.preventDefault(); this.setState({ view: 'home' }); window.scrollTo(0, 0); },
+      goAbout: () => { this.setState({ view: 'about' }); window.scrollTo(0, 0); },
+      navHomeStyle: this.render_navBtn(view === 'home'),
+      navAboutStyle: this.render_navBtn(view === 'about'),
+      filterChips,
+      photos,
+      lightboxOpen: !!lb,
+      lightboxImage: lb ? React.createElement('img', {
+        src: lb.src,
+        alt: lb.alt,
+        onClick: (e) => e.stopPropagation(),
+        style: { maxWidth: 'min(1200px, 94vw)', maxHeight: '78vh', boxShadow: '0 30px 100px rgba(0,0,0,0.6)', cursor: 'default' },
+      }) : null,
+      lightboxTitle: lb ? lb.title : '',
+      lightboxLocation: lb ? lb.location : '',
+      closeLightbox: () => this.setState({ lightboxIndex: -1 }),
+      stopClick: (e) => e.stopPropagation(),
+      prevPhoto: (e) => { e.stopPropagation(); step(-1); },
+      nextPhoto: (e) => { e.stopPropagation(); step(1); },
+    };
+  }
+
+  componentDidMount() {
+    this._onKey = (e) => {
+      if (this.state.lightboxIndex < 0) return;
+      if (e.key === 'Escape') this.setState({ lightboxIndex: -1 });
+    };
+    window.addEventListener('keydown', this._onKey);
+  }
+  componentWillUnmount() { window.removeEventListener('keydown', this._onKey); }
+}
+</script>
 </body>
 </html>
