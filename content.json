@@ -1,0 +1,30 @@
+{
+  "site": {
+    "name": "Ryan Yang Photography",
+    "tagline": "Photography portfolio"
+  },
+  "socials": {
+    "instagram": "",
+    "email": ""
+  },
+  "hero": {
+    "kicker": "Portfolio",
+    "title": "Ryan Yang\nPhotography",
+    "image": ""
+  },
+  "about": {
+    "heading": "About",
+    "paragraphs": [
+      "Tell your story here."
+    ],
+    "facts": [],
+    "portrait": ""
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "All"
+    }
+  ],
+  "photos": []
+}
