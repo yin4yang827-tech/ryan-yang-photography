@@ -26,5 +26,27 @@
       "label": "All"
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "file": "images/DSC_0297.jpg",
+      "cat": "all",
+      "title": "New River Gorge Bridge",
+      "location": "West Virginia",
+      "alt": ""
+    },
+    {
+      "file": "images/DSC_0384.jpg",
+      "cat": "all",
+      "title": "Night Sky",
+      "location": "West Virginia",
+      "alt": ""
+    },
+    {
+      "file": "images/DSC_0408.jpg",
+      "cat": "all",
+      "title": "Mushroom",
+      "location": "West Virginia",
+      "alt": ""
+    }
+  ]
 }
